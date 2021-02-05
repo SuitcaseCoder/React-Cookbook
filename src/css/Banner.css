@@ -1,0 +1,43 @@
+.div-Header {
+  width: 100%;
+  background: url("../assets/pasta-banner.jpg");
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-color: teal;
+}
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.3);
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  /* position: absolute; */
+  /* top: 0;
+    left: 0; */
+  width: 100%;
+  height: 100%;
+}
+
+
+.div-Header h2 {
+    margin: 45px auto;
+  color: white;
+}
+
+.div-Header .row input {
+  padding: 8px 14px;
+  border-radius: 4px;
+  color: teal;
+  margin-top: 85px
+}
+
+.div-Header .row button {
+  padding: 8px 12px;
+  background-color: teal;
+  color: white;
+  margin-top: 85px
+
+}

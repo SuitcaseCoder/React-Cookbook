@@ -1,0 +1,11 @@
+.card-view {
+    margin: 8px 0;
+    background-color: teal;
+    color: white;
+    font-weight: 800px;
+    border-radius: 8px;
+  }
+
+  /* .card-body {
+    background-color: teal;
+  } */
