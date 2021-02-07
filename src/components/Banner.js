@@ -17,7 +17,7 @@ const [hasName, setShowHeading] = useState(false);
                 <div className="row">
                     <h2>Welcome to {user}'s Cookbook!</h2>
                 </div> :
-                <div className="row">
+                <div className="container">
                     <form className="row justify-content-center" onSubmit={(e) => setShowHeading(true)}>
                     <input
                     className="col-sm-3"
