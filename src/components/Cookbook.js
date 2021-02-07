@@ -34,6 +34,8 @@ class Cookbook extends Component {
     this.state.Recipes.push({
       title: "New Recipe Title",
       description: "New Note description",
+      ingredients: ["veggies", "fruits", "other stuff"],
+      instructions: ["do the thing", "mix it up", "taste it" , "add salt", "enjoy"] 
     });
     this.setState({
       Recipes: this.state.Recipes,
